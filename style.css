@@ -9,7 +9,7 @@ body{
 }
 /*****************************************************************Home Page*/
 .body-home{
-    background-image: url("images/background-01-port.png");
+    background-image: url("images/background.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -35,6 +35,7 @@ body{
     font-weight: bold;
     text-align: center;
     border: 5px solid white;
+    border-radius: 30px;
     
     display: block;
     margin: auto;
@@ -49,15 +50,16 @@ body{
 }
 
 .body-meals{
-    background-image: url("images/background-02-port.png");
+    background-image: url("images/02-background.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .meals-list{
-    border: 5px solid #1a1a1a;
+    border: 5px solid #fff;
     margin: 10px;
+    border-radius: 30px;
 }
 
 .meals-list a{
@@ -66,18 +68,19 @@ body{
 .meals-list-items h1{
     font-weight: bold;
     font-size: 20px;
-    color: #1a1a1a;
+    color: floralwhite;
     padding-left: 10px;
 }
 .meals-list-items i{
     float: right;
-    color: #1a1a1a;
+    color :#fff;
     padding-right: 10px;
+    padding-top: 10px;
 }
 .meals-list-items p{
     font-size: 15px;
     font-style: italic;
-    color: #4d4d4d;
+    color: #fff;
     margin-top: -7px;
     padding-left: 10px;
 }
@@ -117,6 +120,7 @@ body{
     font-size: 25px;
     text-align: center;
     border:5px solid #1a1a1a;
+    border-radius: 35px;
     margin: 10px;
     padding: 5px;
 }
@@ -152,7 +156,7 @@ body{
     padding-left: 28px;
 }
 
-/* ********************************************************/
+/*********************************************************Order Button*/
 .button a{
     text-decoration: none;
 }
@@ -182,8 +186,6 @@ body{
     user-select: none;
   
 }
-
-
 .button:focus {
   color: #171e29;
 }
@@ -205,13 +207,13 @@ body{
     float: center;
 }
 
-@media (min-width: 768px) {
-  .button-59 {
-    min-width: 170px;
-  }
-}
-/**********************************************Responsive Layout*/
 
+/**********************************************Responsive Layout*/
+@media (min-width: 768px) {
+    .button-59 {
+      min-width: 170px;
+    }
+  }
 @media only screen and (min-width: 600px) {
     #meals {
         width:80%;
